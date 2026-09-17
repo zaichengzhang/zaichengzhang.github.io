@@ -101,6 +101,9 @@ h1 {
   color: var(--muted);
   line-height: 1.85;
 }
+.intro-text p + p { margin-top: 15px; }
+.intro-text a { color: var(--ink); text-decoration-color: #9caeb4; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.intro-text a:hover { color: var(--accent); text-decoration-color: currentColor; }
 .intro-contact { margin-top: 18px; font-size: 14px; font-style: normal; }
 .contact-links { display: flex; flex-wrap: wrap; gap: 0 24px; }
 .contact-links a { display: inline-flex; gap: 8px; align-items: center; min-height: 44px; overflow-wrap: anywhere; }
