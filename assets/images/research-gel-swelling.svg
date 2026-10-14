@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="292" viewBox="0 0 520 292" role="img" aria-labelledby="title desc">
+<title id="title">Solvent uptake and surface creasing in a bonded gel</title>
+<desc id="desc">Conceptual cross-section comparing an initial gel layer with a swollen layer bonded to a rigid substrate. The constraint on lateral expansion can generate compression and a localized inward surface crease. The drawing shows one possible unstable regime, not a universal outcome of swelling.</desc>
+<defs>
+  <linearGradient id="liquid" x2="0" y2="1"><stop stop-color="#edf1ee"/><stop offset="1" stop-color="#e4ece8"/></linearGradient>
+  <linearGradient id="gel" x2="0" y2="1"><stop stop-color="#96b3ad"/><stop offset="1" stop-color="#bfd0c6"/></linearGradient>
+  <radialGradient id="particle" cx=".32" cy=".25" r=".8"><stop stop-color="#dfc2ac"/><stop offset=".65" stop-color="#bf8968"/><stop offset="1" stop-color="#a76c4f"/></radialGradient>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#365c64" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  <marker id="copper-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#9d5e40" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M-2 10 10-2M8 12 12 8" stroke="#acbab4" stroke-width="1"/></pattern>
+</defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;fill:#36535a} .line{fill:none;stroke:#365c64;stroke-width:2;stroke-linecap:round;stroke-linejoin:round} .leader{fill:none;stroke:#748e8f;stroke-width:1.2} .motion{fill:none;stroke:#9d5e40;stroke-width:2;stroke-linecap:round;marker-end:url(#copper-arrow)} .label{font-size:15px}</style>
+<rect width="520" height="292" fill="url(#liquid)"/>
+
+<defs><clipPath id="swollen"><path d="M286 139 H338 C346 139 349 144 350 156 L351 187 L353 156 C354 144 357 139 365 139 H478 V228 H286Z"/></clipPath></defs>
+<rect x="40" y="228" width="438" height="64" fill="#d7ded7"/>
+<rect x="40" y="228" width="438" height="17" fill="url(#hatch)"/>
+<rect x="40" y="174" width="192" height="54" fill="url(#gel)"/>
+<path d="M40 174 H232" class="line"/>
+<path d="M286 139 H338 C346 139 349 144 350 156 L351 187 L353 156 C354 144 357 139 365 139 H478 V228 H286Z" fill="url(#gel)"/>
+<g fill="none" stroke="#6f9690" stroke-width="1.1" opacity=".65">
+<path d="M40 191 Q80 185 121 193 T232 190 M40 213 Q81 207 121 215 T232 212 M71 175 Q65 200 74 227 M111 175 Q119 202 111 227 M151 175 Q145 201 153 227 M187 175 Q195 201 187 227"/>
+<g clip-path="url(#swollen)"><path d="M286 163 Q322 156 352 195 Q388 154 428 163 T478 163 M286 194 Q321 186 353 210 Q390 185 429 194 T478 194 M307 140 Q295 184 310 228 M335 140 Q321 186 337 228 M374 140 Q386 187 374 228 M417 140 Q408 184 419 228 M454 140 Q465 184 454 228"/></g></g>
+<path d="M286 139 H338 C346 139 349 144 350 156 L351 187 L353 156 C354 144 357 139 365 139 H478" class="line"/>
+<path d="M40 228 H478" class="line"/>
+<path d="M246 190 H274" class="line" marker-end="url(#arrow)"/>
+<text x="41" y="72">Initial gel</text>
+<text x="288" y="39">Solvent uptake</text>
+<g fill="#b77d5d"><circle cx="308" cy="66" r="3.7"/><circle cx="324" cy="74" r="3"/><circle cx="427" cy="65" r="3.7"/><circle cx="442" cy="74" r="3"/></g>
+<path d="M315 87 V120" class="motion"/><path d="M434 87 V120" class="motion"/>
+<text x="383" y="174" class="label">Crease</text><path d="M378 172 357 184" class="leader"/>
+<text x="47" y="267">Bonded substrate · lateral constraint</text>
+
+</svg>

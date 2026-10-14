@@ -1,6 +1,6 @@
 # Content sources
 
-Bibliographic inventory checked on 2026-09-16. Preprint publication status rechecked and page organization updated on 2026-09-17.
+Bibliographic inventory established on 2026-09-16. Monthly discovery and all three preprint publication statuses rechecked on 2026-10-01; no verified additions or migrations. Page organization last changed on 2026-09-17.
 
 ## Identity and affiliation
 
@@ -29,6 +29,20 @@ The page lists 23 distinct works: 20 journal articles (including one French over
 The supplied Google Scholar profile could not be retrieved directly. This is the full deduplicated article inventory verified from the accessible sources, not a guaranteed exact mirror of Google Scholar. No citation counts or h-index are inferred.
 
 Discovery was cross-checked against the [Beihang publication list](https://teacher.buaa.edu.cn/zhangzaicheng/en/lwcg/211097/list/index.htm) and the [author ResearchGate profile](https://www.researchgate.net/profile/Zaicheng-Zhang). ResearchGate is used for discovery, not as the sole authority for the citations.
+
+## Monthly check: 2026-10-01
+
+- The live [ORCID works API](https://pub.orcid.org/v3.0/0000-0001-7472-1597/works) contains 18 unique journal DOIs, all already included. The official Beihang publication list ([page 1](https://shi.buaa.edu.cn/zhangzaicheng/en/lwcg/211097/list/index.htm), [page 2](https://shi.buaa.edu.cn/zhangzaicheng/en/lwcg/211097/list/2.htm)) contains 12 older papers, also already included; it is not a complete current bibliography.
+- Each existing arXiv page was reopened: [2604.20299](https://arxiv.org/abs/2604.20299), [2604.05925](https://arxiv.org/abs/2604.05925), and [2602.12832](https://arxiv.org/abs/2602.12832). Each still shows v1 and no journal reference or related journal DOI. Title, author/topic, and Crossref searches did not identify a verifiable publisher Version of Record of these works. All three therefore remain Preprints; this does not establish that they are unpublished.
+- A possible omitted AFM drift-correction article, [DOI 10.1109/TMECH.2026.3677007](https://doi.org/10.1109/TMECH.2026.3677007), remains pending. The indexed [Yuliang Wang faculty page](https://www.me.buaa.edu.cn/info/1071/1794.htm) includes Zaicheng Zhang; [IEEE-deposited Crossref metadata](https://api.crossref.org/works/10.1109/TMECH.2026.3677007) lists Buyun Chen, Shusheng Bi, and Yuliang Wang only, with a different title. The [IEEE article page](https://ieeexplore.ieee.org/document/11477862/) required a browser verification challenge. Do not add this candidate until the final article resolves the authorship and title conflict.
+- Coverage limits: Google Scholar could not be read; direct arXiv author-search retrieval failed, although individual records were accessible. Crossref discovery used bounded results and can miss records. Some publisher pages were inaccessible. The collaborator's faculty page was available in the search index but direct retrieval failed. Same-name papers with incompatible affiliations/coauthors were excluded; unresolved identity matches were not added.
+- No article, research, biography, or visual content changed. The remote main branch and public HTML/CSS/image files matched the existing local website. This local source-note update and refreshed ZIP are an audit-only change, intentionally not committed to GitHub under the no-substantive-change rule. Full evidence and validation are retained outside the deployable site in `work/maintenance/2026-10-01/` in the project workspace.
+
+## Owner clarification: 2026-10-03
+
+The owner explicitly confirmed authorship of **Measurement of Mechanical Properties of Soft Materials by a Visual Sensing Based Nanoindentation**, DOI [10.1109/TMECH.2025.3585503](https://doi.org/10.1109/TMECH.2025.3585503). This article is already included under Publications (2026), with the author sequence Buyun Chen, **Zaicheng Zhang**, Shusheng Bi, and Yuliang Wang. The existing citation remains unchanged.
+
+This confirmation applies specifically to the nanoindentation paper. It does not resolve the separate AFM drift-correction candidate, DOI 10.1109/TMECH.2026.3677007, noted in the October 1 audit. Keep the two works distinct and do not transfer authorship confirmation between them.
 
 ## Ordering and editorial rules
 
@@ -72,3 +86,10 @@ Discovery was cross-checked against the [Beihang publication list](https://teach
 ## Research illustration
 
 The hero is an AI-generated qualitative illustration, not measured or simulated flow. Provenance and the final edit prompt are in `assets/images/IMAGE_NOTES.md`.
+
+
+## Research diagrams: 2026-10-14
+
+Added four original SVG schematics for soft lubrication, contactless rheology, confined dynamics, and gel swelling. Each diagram has a representative-work link and accessible text; all are explicitly conceptual and not to scale. Primary author records were reopened on 2026-10-14: [soft lubrication](https://arxiv.org/abs/1907.05849), [contactless rheology](https://arxiv.org/abs/2202.04386), [confined Brownian motion](https://arxiv.org/abs/2405.13434), and [swelling-induced creasing](https://arxiv.org/abs/2604.20299). Their mechanisms guide the schematics; no paper figure is reproduced. Scientific constraints and provenance are documented in `assets/images/IMAGE_NOTES.md`.
+
+The Research links point to the existing formal journal citations for the first three topics and the existing preprint for gel creasing. This visual update does not change any article metadata, publication classification, author order, biography, or previously recorded author clarification. The October 1 and October 3 local source notes are retained in this release.

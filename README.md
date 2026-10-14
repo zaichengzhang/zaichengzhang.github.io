@@ -6,7 +6,7 @@ Zaicheng Zhang’s English-only research homepage at Beihang University, built w
 
 ## 页面内容
 
-页面仅保留研究简介、Research、Preprints 和 Publications。邮箱、Google Scholar 链接及单位信息位于个人介绍下方，顶部 Contact 导航直接定位到这里。沿用暖白、墨蓝和少量陶土色，保留一张科研示意图；手机导航直接显示，不需要展开菜单。
+页面仅保留研究简介、Research、Preprints 和 Publications。邮箱、Google Scholar 链接及单位信息位于个人介绍下方，顶部 Contact 导航直接定位到这里。沿用暖白、墨蓝和少量陶土色，首页保留一张科研示意图，Research 的四个方向各配一张原创 SVG 概念图及代表性文章链接；手机导航直接显示，不需要展开菜单。
 
 ```text
 academic-homepage/
@@ -16,6 +16,7 @@ academic-homepage/
 │   └── images/
 │       ├── favicon.svg
 │       ├── soft-interface-v4.png # 上下流线不对称、较柔和的科研概念图
+│       ├── research-*.svg     # 四个研究方向的原创矢量示意图
 │       └── IMAGE_NOTES.md     # 图像生成说明和完整提示词
 ├── CONTENT_SOURCES.md       # 论文与个人资料的核对来源
 ├── .nojekyll
@@ -36,6 +37,10 @@ academic-homepage/
 ### 首页图片
 
 当前图片为 `assets/images/soft-interface-v4.png`，已用内置图像生成工具重新修整为较细、平滑、两端渐隐的流线，去掉箭头，保留上下不对称形态，以及柔和的灰青、墨蓝和铜色。它是大体表达近界面流动约束的概念图，不是实验图像、数值流场或定量变形解。生成说明与完整修改提示词见 `assets/images/IMAGE_NOTES.md`。
+
+### Research 配图
+
+四张 SVG 图分别说明软润滑、非接触流变、受限布朗运动和凝胶溶胀。图片使用统一的蓝绿/铜色，可随屏幕清晰缩放；桌面两列、手机单列，无额外交互或脚本。它们是原创概念示意，不是论文原图或定量数据。每个方向下方链接到相应代表性论文，预印本明确标注 Preprint。修改物理示意时请同时核对 `assets/images/IMAGE_NOTES.md` 中的科学约束，保持流体间隙、不可穿透边界及折痕形态正确。
 
 ## 本地预览
 

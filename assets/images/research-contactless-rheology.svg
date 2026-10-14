@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="292" viewBox="0 0 520 292" role="img" aria-labelledby="title desc">
+<title id="title">Contactless colloidal-probe rheology</title>
+<desc id="desc">An AFM cantilever carries a spherical probe oscillating normally above a soft sample. A finite liquid gap separates probe and sample; hydrodynamic coupling deforms the surface without solid contact.</desc>
+<defs>
+  <linearGradient id="liquid" x2="0" y2="1"><stop stop-color="#edf1ee"/><stop offset="1" stop-color="#e4ece8"/></linearGradient>
+  <linearGradient id="gel" x2="0" y2="1"><stop stop-color="#96b3ad"/><stop offset="1" stop-color="#bfd0c6"/></linearGradient>
+  <radialGradient id="particle" cx=".32" cy=".25" r=".8"><stop stop-color="#dfc2ac"/><stop offset=".65" stop-color="#bf8968"/><stop offset="1" stop-color="#a76c4f"/></radialGradient>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#365c64" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  <marker id="copper-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#9d5e40" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M-2 10 10-2M8 12 12 8" stroke="#acbab4" stroke-width="1"/></pattern>
+</defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;fill:#36535a} .line{fill:none;stroke:#365c64;stroke-width:2;stroke-linecap:round;stroke-linejoin:round} .leader{fill:none;stroke:#748e8f;stroke-width:1.2} .motion{fill:none;stroke:#9d5e40;stroke-width:2;stroke-linecap:round;marker-end:url(#copper-arrow)} .label{font-size:15px}</style>
+<rect width="520" height="292" fill="url(#liquid)"/>
+
+<path d="M30 211 H169 C215 211 226 226 269 226 C310 226 326 211 368 211 H490 V292 H30Z" fill="url(#gel)"/>
+<path d="M30 211 H169 C215 211 226 226 269 226 C310 226 326 211 368 211 H490" class="line"/>
+<path d="M75 66 H270 V92" fill="none" stroke="#648087" stroke-width="12" stroke-linejoin="round"/>
+<path d="M75 61 H269" stroke="#b3c4c3" stroke-width="2"/>
+<circle cx="269" cy="118" r="34" fill="none" stroke="#ad8065" stroke-width="1.3" stroke-dasharray="4 5" opacity=".5"/>
+<circle cx="269" cy="130" r="34" fill="url(#particle)" stroke="#99664e" stroke-width="1.4"/>
+<path d="M249 111 A25 25 0 0 1 270 105" fill="none" stroke="#eee0d1" stroke-width="1.7" opacity=".7"/>
+<path d="M326 92 V163" class="line" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="344" y="133">Oscillation</text>
+<text x="75" y="40">AFM cantilever</text>
+<text x="61" y="165">Fluid gap</text><path d="M140 161 185 188 H244" class="leader"/>
+<path d="M269 173 V216 M264 173 H274 M264 216 H274" class="leader"/>
+<text x="49" y="262">Soft sample</text>
+
+</svg>
