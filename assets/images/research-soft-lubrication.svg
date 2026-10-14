@@ -1,26 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="292" viewBox="0 0 520 292" role="img" aria-labelledby="title desc">
-<title id="title">Sliding and lift near a soft interface</title>
-<desc id="desc">Conceptual cross-section: a sphere translates to the right above a deformable substrate and experiences an upward lift. The interface deformation is asymmetric. The shape is illustrative, not a computed solution.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380" role="img" aria-labelledby="title desc">
+<title id="title">Lateral-drive soft lubrication</title>
+<desc id="desc">A borosilicate sphere is attached to an AFM cantilever above a soft PDMS substrate. The substrate is driven laterally; the cantilever reads the normal lift force. A separate enlarged conceptual section shows a finite fluid gap and asymmetric elastic deformation at one phase. Shapes and dimensions are not quantitative solutions.</desc>
 <defs>
-  <linearGradient id="liquid" x2="0" y2="1"><stop stop-color="#edf1ee"/><stop offset="1" stop-color="#e4ece8"/></linearGradient>
-  <linearGradient id="gel" x2="0" y2="1"><stop stop-color="#96b3ad"/><stop offset="1" stop-color="#bfd0c6"/></linearGradient>
-  <radialGradient id="particle" cx=".32" cy=".25" r=".8"><stop stop-color="#dfc2ac"/><stop offset=".65" stop-color="#bf8968"/><stop offset="1" stop-color="#a76c4f"/></radialGradient>
-  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#365c64" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
-  <marker id="copper-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#9d5e40" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
-  <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M-2 10 10-2M8 12 12 8" stroke="#acbab4" stroke-width="1"/></pattern>
+<linearGradient id="gelTop" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#d8e5df"/><stop offset="1" stop-color="#abc5ba"/></linearGradient>
+<linearGradient id="gelFront" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a6c0b4"/><stop offset="1" stop-color="#c8d8ce"/></linearGradient>
+<linearGradient id="glass" x2="0" y2="1"><stop stop-color="#e1e8e4" stop-opacity=".5"/><stop offset="1" stop-color="#becfc9" stop-opacity=".6"/></linearGradient>
+<radialGradient id="bead" cx=".3" cy=".23" r=".78"><stop stop-color="#f2e9de"/><stop offset=".45" stop-color="#d5b69b"/><stop offset=".83" stop-color="#ad7f5d"/><stop offset="1" stop-color="#805b44"/></radialGradient>
+<radialGradient id="oil" cx=".35" cy=".25" r=".75"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#d7e7e2" stop-opacity=".5"/><stop offset=".82" stop-color="#80aaa5" stop-opacity=".65"/><stop offset="1" stop-color="#d7e5de" stop-opacity=".8"/></radialGradient>
+<linearGradient id="metal" x2="0" y2="1"><stop stop-color="#a2b1ad"/><stop offset=".45" stop-color="#78918e"/><stop offset="1" stop-color="#506b69"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#d8e4df" stop-opacity=".35"/><stop offset="1" stop-color="#d8e4df" stop-opacity="0"/></radialGradient>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#355c61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="copperArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#9b6548" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M-2 8 8-2 M6 10 10 6" stroke="#9aafa7" stroke-width=".7"/></pattern>
 </defs>
-<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;fill:#36535a} .line{fill:none;stroke:#365c64;stroke-width:2;stroke-linecap:round;stroke-linejoin:round} .leader{fill:none;stroke:#748e8f;stroke-width:1.2} .motion{fill:none;stroke:#9d5e40;stroke-width:2;stroke-linecap:round;marker-end:url(#copper-arrow)} .label{font-size:15px}</style>
-<rect width="520" height="292" fill="url(#liquid)"/>
-
-<path d="M30 209 C105 209 142 208 178 199 C211 188 238 193 269 211 C307 231 344 216 389 210 C428 207 465 209 490 209 L490 292 H30Z" fill="url(#gel)"/>
-<path d="M30 209 C105 209 142 208 178 199 C211 188 238 193 269 211 C307 231 344 216 389 210 C428 207 465 209 490 209" class="line"/>
-<circle cx="245" cy="126" r="47" fill="url(#particle)" stroke="#99664e" stroke-width="1.4"/>
-<path d="M216 103 A34 34 0 0 1 246 92" fill="none" stroke="#eee0d1" stroke-width="2" opacity=".7"/>
-<path d="M306 126 H390" class="motion"/><text x="317" y="108">Sliding</text>
-<path d="M245 72 V32" class="line" marker-end="url(#arrow)"/><text x="263" y="51">Lift</text>
-<text x="37" y="77">Viscous liquid</text>
-<path d="M245 180 V197 M240 180 H250 M240 197 H250" class="leader"/>
-<text x="262" y="190" class="label">gap</text>
-<text x="48" y="258">Deformable interface</text>
-
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#344f51;font-size:20px} .small{font-size:16px;fill:#566d6a} .math{font:italic 23px Georgia,'Times New Roman',serif} .edge{stroke:#527570;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round} path.edge:not([fill]){fill:none} .guide{fill:none;stroke:#92aaa1;stroke-width:1;stroke-dasharray:4 5} .leader{fill:none;stroke:#859c95;stroke-width:1.1;stroke-linecap:round} .arrow{fill:none;stroke:#355c61;stroke-width:1.7;stroke-linecap:round;marker-end:url(#arrow)} .drive{fill:none;stroke:#9b6548;stroke-width:1.8;stroke-linecap:round;marker-end:url(#copperArrow)} .dim{fill:none;stroke:#587771;stroke-width:1.15;stroke-linecap:round}</style>
+<rect width="640" height="380" fill="#f0f3ee"/>
+<ellipse cx="304" cy="195" rx="275" ry="170" fill="url(#halo)"/>
+<path d="M37 287 l45.75 -61 h292 l-45.75 61Z" fill="url(#glass)" stroke="#91a9a1" stroke-width="1"/><path d="M37 287 h292 v10 h-292Z" fill="#ccd7d0" fill-opacity=".7" stroke="#91a9a1" stroke-width="1"/><path d="M329 287 l45.75 -61 v10 l-45.75 61Z" fill="#bdcdc4" stroke="#91a9a1" stroke-width="1"/><path d="M42 260 l42.0 -56 h282 l-42.0 56Z" fill="url(#gelTop)" class="edge"/><path d="M42 260 h282 v25 h-282Z" fill="url(#gelFront)" class="edge"/><path d="M324 260 l42.0 -56 v25 l-42.0 56Z" fill="#a6beb1" class="edge"/><path d="M76 100 C134 100 175 132 238 131 L238 137 C175 138 134 107 76 107Z" fill="url(#metal)" stroke="#5f7f79" stroke-width="1"/><rect x="60" y="90" width="19" height="28" rx="1.5" fill="#869d94"/><circle cx="235" cy="173" r="36" fill="url(#bead)" stroke="#9c7a60" stroke-width="1.15"/><path d="M211.60 159.32 A25.92 25.92 0 0 1 240.40 146.00" fill="none" stroke="#fffdf5" stroke-width="1.8" opacity=".7"/><text x="91" y="62" class="" text-anchor="start">AFM colloidal probe</text><path d="M155 70 167 108" class="leader"/><path d="M235 127 V83" class="arrow"/><text x="250" y="98" class="math" text-anchor="start">F<tspan font-size="15" baseline-shift="sub">N</tspan></text><path d="M123 319 H260" class="drive" marker-start="url(#copperArrow)"/><text x="192" y="349" class="small" text-anchor="middle">Lateral drive</text><text x="277" y="325" class="math" text-anchor="start">U(t)</text><text x="56" y="279" class="small" text-anchor="start">Elastic PDMS</text><ellipse cx="239" cy="238" rx="29" ry="10" class="guide"/><path d="M268 235 390 194" class="leader"/><path d="M403 72 V313" stroke="#d3dfd6" stroke-width="1"/><text x="431" y="78" class="small" text-anchor="start">Fluid gap</text><path d="M426 120 Q516 224 606 120 V101 H426Z" fill="url(#bead)" stroke="#aa8b70" stroke-width="1.2"/>
+<path d="M426 248 C450 248 469 272 491 262 C506 255 510 250 516 244 C530 226 539 231 554 240 C571 249 591 248 606 248 V286 H426Z" fill="url(#gelFront)"/>
+<path d="M426 248 C450 248 469 272 491 262 C506 255 510 250 516 244 C530 226 539 231 554 240 C571 249 591 248 606 248" class="edge"/>
+<path d="M426 248 H606" class="guide"/>
+<path d="M516 172 V244 M511 172 H521 M511 244 H521" class="dim"/>
+<text x="532" y="211" class="math">h</text>
+<text x="431" y="319" class="small">Deformed interface</text>
 </svg>

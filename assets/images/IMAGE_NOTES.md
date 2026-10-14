@@ -22,7 +22,9 @@ The LOWER TWO curves remain entirely within the narrow fluid gap between the sph
 Palette for lines: muted deep blue-gray with consistent gentle contrast, never bright cyan or pale disappearing lines. Retain the subdued exposure and low-glare material. No text, labels, new objects, arrows, arrow tips, particles, swirls, UI or frames. Preserve everything except the streamline strokes.
 
 
-## Original Research schematics — 2026-10-14
+## Original Research schematics — 2026-10-14 (superseded)
+
+This section records the first iteration. Its geometry and dimensions were replaced by the refinement below; retain it only as provenance.
 
 Four hand-authored SVG drawings accompany the Research descriptions. These are original conceptual diagrams, not reproduced paper figures, measured data, calculated velocity fields, or quantitative deformation solutions. All use a 520 × 292 viewBox, subdued teal and copper, and English labels. The page provides a shared “Conceptual schematics · not to scale” caption and a representative-work link for each topic. SVG title/description and HTML alt text explain the physical interpretation.
 
@@ -32,3 +34,14 @@ Four hand-authored SVG drawings accompany the Research descriptions. These are o
 - `research-gel-swelling.svg`: a gel attached to a substrate takes up solvent and thickens while lateral expansion is constrained. Both stages have equal lateral extent. A narrow inward fold represents a crease rather than a sinusoidal wrinkle. It illustrates a possible unstable regime; swelling does not always cause creasing, and the solvent dependence is stated in the accompanying research text. Scientific basis: [Jiang et al., arXiv:2604.20299](https://arxiv.org/abs/2604.20299), explicitly linked as a preprint.
 
 No third-party figure pixels were reused. The editable SVG files are the source assets. The drawing helper and visual checks are archived outside the deployable site in `work/research-figures-2026-10-14/`.
+
+## Refined Research schematics — 2026-10-15 (current)
+
+All four SVGs were redrawn at 640 × 380 after inspecting the original experimental figures and captions on October 14–15. The figures use consistent perspective, muted materials, thin outlines, and restrained highlights. Solid probes are bronze; the oil droplet is translucent. The first two diagrams separate the apparatus overview from an enlarged fluid-gap section. The drawings remain original, qualitative, and not to scale; no experimental pixels, measured trajectories, calculated flow fields, or quantitative deformation profiles are reproduced.
+
+- **Soft lubrication:** the sphere is attached to the AFM cantilever, while the PDMS substrate is driven laterally. The upward force arrow is the normal lift on the probe. The enlarged section illustrates asymmetric deformation at one phase of the drive with an open liquid gap. Its shape is schematic, not a fitted or analytical solution. Basis: Fig. 1 and experimental description in [Zhang et al., PRL 124, 054502 (2020), author-hosted publisher PDF](https://vincent-bertin.github.io/Papers/03_Zhang2020PRL.pdf), PDF page 2.
+- **Contactless rheology:** the vertical excitation acts at the cantilever base; the sphere is attached to its free end. Z(t) denotes probe motion. The enlarged meridional section shows axisymmetric normal deformation and labels the central surface-to-surface gap h(0,t). The gap remains positive; deformation and separation are exaggerated for visibility. Basis: Fig. 1 and the gap definition in [Zhang et al., Physical Review Applied 17, 064045 (2022), author-hosted publisher PDF](https://vincent-bertin.github.io/Papers/10_Zhang2022PRApp.pdf), PDF page 3.
+- **Confined dynamics:** a liquid oil microdroplet is separated from a rigid glass wall. The separate irregular path is an illustrative projection of in-plane thermal motion, not a measurement or a sedimentation trajectory. Direction arrows do not encode force, velocity, or diffusion magnitude. Basis: Fig. 1 and methods in [Fares et al., author manuscript](https://arxiv.org/html/2405.13434v1), published in PNAS 121, e2411956121 (2024).
+- **Gel swelling:** two bonded PDMS layers compare solvent conditions. Shorter polymeric solvents can cause transient self-contacting creases; longer polymeric solvents can leave the surface smooth under the studied conditions. The narrow inward fold has touching flanks, rather than a sinusoidal wrinkle. Equal schematic heights do not imply equal measured swelling ratios; chain icons do not specify chemical structures. Basis: Fig. 1 and accompanying discussion in [Jiang et al., arXiv:2604.20299v1](https://arxiv.org/html/2604.20299v1). The representative work remains explicitly labelled as a preprint.
+
+The page retains a shared conceptual-schematic caption and one representative-work link per topic. Each SVG includes title/description metadata and the HTML includes descriptive alt text. Source downloads, source-figure renderings, the drawing helper, and desktop/mobile checks are stored outside the deployed site in `work/research-refinement-2026-10-14/` (work began October 14 and completed October 15).

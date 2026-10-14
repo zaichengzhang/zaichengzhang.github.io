@@ -40,7 +40,7 @@ academic-homepage/
 
 ### Research 配图
 
-四张 SVG 图分别说明软润滑、非接触流变、受限布朗运动和凝胶溶胀。图片使用统一的蓝绿/铜色，可随屏幕清晰缩放；桌面两列、手机单列，无额外交互或脚本。它们是原创概念示意，不是论文原图或定量数据。每个方向下方链接到相应代表性论文，预印本明确标注 Preprint。修改物理示意时请同时核对 `assets/images/IMAGE_NOTES.md` 中的科学约束，保持流体间隙、不可穿透边界及折痕形态正确。
+四张 SVG 图分别说明软润滑、非接触流变、受限布朗运动和凝胶溶胀，已于 2026-10-15 对照代表性论文原图重绘。采用 640 × 380 画布、统一的低饱和蓝绿/铜色和立体剖面，桌面两列、手机单列，无额外交互或脚本。前两张图用局部放大明确流体间隙，并分别表示基底横向驱动和悬臂基座激励；液滴图保留流体材质与壁面间隙；凝胶图对照不同溶剂条件下的短暂折痕与平整表面。它们是原创概念示意，不是论文原图或定量数据。每个方向下方链接到相应代表性论文，预印本明确标注 Preprint。修改物理示意时请同时核对 `assets/images/IMAGE_NOTES.md` 中的当前科学约束与来源。
 
 ## 本地预览
 
@@ -61,6 +61,6 @@ academic-homepage/
 
 如将文件放入其他名称的项目仓库，页面也兼容 `https://username.github.io/repository/` 形式的子路径，因为资源使用相对路径。
 
-如果之前已经上传过旧版，可删除不再使用的 `assets/js/main.js`、三个 `research-*.svg` 文件及旧图 `soft-interface.png`，并覆盖本项目中的同名文件。不要删除你自行添加的论文、照片或其他资料。
+更新旧版时覆盖本项目中的同名文件，并保留当前页面引用的四个 `research-*.svg` 配图。清理旧文件前先确认页面不再引用；不要删除自行添加的论文、照片或其他资料。
 
 官方参考：[创建 GitHub Pages 站点](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)、[配置发布来源](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。

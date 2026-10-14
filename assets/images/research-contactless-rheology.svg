@@ -1,28 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="292" viewBox="0 0 520 292" role="img" aria-labelledby="title desc">
-<title id="title">Contactless colloidal-probe rheology</title>
-<desc id="desc">An AFM cantilever carries a spherical probe oscillating normally above a soft sample. A finite liquid gap separates probe and sample; hydrodynamic coupling deforms the surface without solid contact.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380" role="img" aria-labelledby="title desc">
+<title id="title">Base-excited contactless AFM rheology</title>
+<desc id="desc">The spherical probe is glued to the free end of a cantilever whose base is driven vertically. The probe displacement Z(t) is read above a viscoelastic PDMS layer. A separate enlarged meridional section shows a finite central liquid gap h(0,t) and an axisymmetric surface response at one phase. No solid contact is depicted; deflection and gap are exaggerated.</desc>
 <defs>
-  <linearGradient id="liquid" x2="0" y2="1"><stop stop-color="#edf1ee"/><stop offset="1" stop-color="#e4ece8"/></linearGradient>
-  <linearGradient id="gel" x2="0" y2="1"><stop stop-color="#96b3ad"/><stop offset="1" stop-color="#bfd0c6"/></linearGradient>
-  <radialGradient id="particle" cx=".32" cy=".25" r=".8"><stop stop-color="#dfc2ac"/><stop offset=".65" stop-color="#bf8968"/><stop offset="1" stop-color="#a76c4f"/></radialGradient>
-  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#365c64" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
-  <marker id="copper-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#9d5e40" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
-  <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M-2 10 10-2M8 12 12 8" stroke="#acbab4" stroke-width="1"/></pattern>
+<linearGradient id="gelTop" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#d8e5df"/><stop offset="1" stop-color="#abc5ba"/></linearGradient>
+<linearGradient id="gelFront" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a6c0b4"/><stop offset="1" stop-color="#c8d8ce"/></linearGradient>
+<linearGradient id="glass" x2="0" y2="1"><stop stop-color="#e1e8e4" stop-opacity=".5"/><stop offset="1" stop-color="#becfc9" stop-opacity=".6"/></linearGradient>
+<radialGradient id="bead" cx=".3" cy=".23" r=".78"><stop stop-color="#f2e9de"/><stop offset=".45" stop-color="#d5b69b"/><stop offset=".83" stop-color="#ad7f5d"/><stop offset="1" stop-color="#805b44"/></radialGradient>
+<radialGradient id="oil" cx=".35" cy=".25" r=".75"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#d7e7e2" stop-opacity=".5"/><stop offset=".82" stop-color="#80aaa5" stop-opacity=".65"/><stop offset="1" stop-color="#d7e5de" stop-opacity=".8"/></radialGradient>
+<linearGradient id="metal" x2="0" y2="1"><stop stop-color="#a2b1ad"/><stop offset=".45" stop-color="#78918e"/><stop offset="1" stop-color="#506b69"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#d8e4df" stop-opacity=".35"/><stop offset="1" stop-color="#d8e4df" stop-opacity="0"/></radialGradient>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#355c61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="copperArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#9b6548" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M-2 8 8-2 M6 10 10 6" stroke="#9aafa7" stroke-width=".7"/></pattern>
 </defs>
-<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;fill:#36535a} .line{fill:none;stroke:#365c64;stroke-width:2;stroke-linecap:round;stroke-linejoin:round} .leader{fill:none;stroke:#748e8f;stroke-width:1.2} .motion{fill:none;stroke:#9d5e40;stroke-width:2;stroke-linecap:round;marker-end:url(#copper-arrow)} .label{font-size:15px}</style>
-<rect width="520" height="292" fill="url(#liquid)"/>
-
-<path d="M30 211 H169 C215 211 226 226 269 226 C310 226 326 211 368 211 H490 V292 H30Z" fill="url(#gel)"/>
-<path d="M30 211 H169 C215 211 226 226 269 226 C310 226 326 211 368 211 H490" class="line"/>
-<path d="M75 66 H270 V92" fill="none" stroke="#648087" stroke-width="12" stroke-linejoin="round"/>
-<path d="M75 61 H269" stroke="#b3c4c3" stroke-width="2"/>
-<circle cx="269" cy="118" r="34" fill="none" stroke="#ad8065" stroke-width="1.3" stroke-dasharray="4 5" opacity=".5"/>
-<circle cx="269" cy="130" r="34" fill="url(#particle)" stroke="#99664e" stroke-width="1.4"/>
-<path d="M249 111 A25 25 0 0 1 270 105" fill="none" stroke="#eee0d1" stroke-width="1.7" opacity=".7"/>
-<path d="M326 92 V163" class="line" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="344" y="133">Oscillation</text>
-<text x="75" y="40">AFM cantilever</text>
-<text x="61" y="165">Fluid gap</text><path d="M140 161 185 188 H244" class="leader"/>
-<path d="M269 173 V216 M264 173 H274 M264 216 H274" class="leader"/>
-<text x="49" y="262">Soft sample</text>
-
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#344f51;font-size:20px} .small{font-size:16px;fill:#566d6a} .math{font:italic 23px Georgia,'Times New Roman',serif} .edge{stroke:#527570;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round} path.edge:not([fill]){fill:none} .guide{fill:none;stroke:#92aaa1;stroke-width:1;stroke-dasharray:4 5} .leader{fill:none;stroke:#859c95;stroke-width:1.1;stroke-linecap:round} .arrow{fill:none;stroke:#355c61;stroke-width:1.7;stroke-linecap:round;marker-end:url(#arrow)} .drive{fill:none;stroke:#9b6548;stroke-width:1.8;stroke-linecap:round;marker-end:url(#copperArrow)} .dim{fill:none;stroke:#587771;stroke-width:1.15;stroke-linecap:round}</style>
+<rect width="640" height="380" fill="#f0f3ee"/>
+<ellipse cx="304" cy="195" rx="275" ry="170" fill="url(#halo)"/>
+<path d="M37 287 l45.75 -61 h292 l-45.75 61Z" fill="url(#glass)" stroke="#91a9a1" stroke-width="1"/><path d="M37 287 h292 v10 h-292Z" fill="#ccd7d0" fill-opacity=".7" stroke="#91a9a1" stroke-width="1"/><path d="M329 287 l45.75 -61 v10 l-45.75 61Z" fill="#bdcdc4" stroke="#91a9a1" stroke-width="1"/><path d="M42 260 l42.0 -56 h282 l-42.0 56Z" fill="url(#gelTop)" class="edge"/><path d="M42 260 h282 v25 h-282Z" fill="url(#gelFront)" class="edge"/><path d="M324 260 l42.0 -56 v25 l-42.0 56Z" fill="#a6beb1" class="edge"/><path d="M76 100 C134 100 175 132 238 131 L238 137 C175 138 134 107 76 107Z" fill="url(#metal)" stroke="#5f7f79" stroke-width="1"/><rect x="60" y="90" width="19" height="28" rx="1.5" fill="#869d94"/><circle cx="235" cy="173" r="36" fill="url(#bead)" stroke="#9c7a60" stroke-width="1.15"/><path d="M211.60 159.32 A25.92 25.92 0 0 1 240.40 146.00" fill="none" stroke="#fffdf5" stroke-width="1.8" opacity=".7"/><path d="M45 78 V126" class="drive" marker-start="url(#copperArrow)"/><text x="30" y="60" class="small" text-anchor="start">Base drive</text><text x="112" y="55" class="" text-anchor="start">Cantilever</text><path d="M166 63 173 111" class="leader"/><path d="M293 142 V200" class="arrow" marker-start="url(#arrow)"/><text x="306" y="177" class="math" text-anchor="start">Z(t)</text><text x="57" y="278" class="small" text-anchor="start">Viscoelastic PDMS</text><ellipse cx="239" cy="238" rx="29" ry="10" class="guide"/><path d="M268 235 390 194" class="leader"/><path d="M403 72 V313" stroke="#d3dfd6" stroke-width="1"/><text x="431" y="78" class="small" text-anchor="start">Fluid gap</text><path d="M426 120 Q516 224 606 120 V101 H426Z" fill="url(#bead)" stroke="#aa8b70" stroke-width="1.2"/>
+<path d="M426 248 C468 248 487 266 516 266 C545 266 564 248 606 248 V286 H426Z" fill="url(#gelFront)"/>
+<path d="M426 248 C468 248 487 266 516 266 C545 266 564 248 606 248" class="edge"/>
+<path d="M426 248 H606" class="guide"/>
+<path d="M516 172 V266 M511 172 H521 M511 266 H521" class="dim"/>
+<text x="533" y="217" class="math">h(0,t)</text>
+<text x="431" y="319" class="small">Normal deformation</text>
+<text x="56" y="345" class="small">Liquid-mediated force · no contact</text>
 </svg>
