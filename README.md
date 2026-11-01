@@ -34,6 +34,8 @@ academic-homepage/
 
 每个 `section class="publication-year"` 是一个年份分组，其中 `ol class="publication-list"` 的每个 `li` 对应一篇文章，依次包含标题链接、作者和期刊信息。可复制一个已有条目，再替换为经核对的真实记录。作者顺序保持原文顺序，自己的姓名以 `<strong>Zaicheng Zhang</strong>` 显示为墨蓝色粗体。两部分分别从最新文章倒数编号，编号互不混用；新增或移动文章后，更新相应年份列表的 `start` 值。预印本只出现在 Preprints，期刊信息行明确标为 `Preprint`。每次更新都逐篇检查 Preprints 中的全部文章，不能只检查本月新加入的条目。核实正式期刊版本后，将文章移入 Publications，替换标题、作者、日期、期刊、卷页或文章号和 DOI，移除原预印本条目，并调整年份和编号；已上线的正式 Early Access / Online First 文章可按正式发表处理，尚无卷页时仅显示已确认信息。仅被接收、投稿状态变化或 arXiv 版本更新，不等于正式发表。访问受阻或匹配不明确时保留预印本并记录待核查原因；Preprints 为空时可隐藏该区域和导航链接。
 
+2026-11-01 更新：两篇预印本已核实被 Physical Review Letters 和 Physical Review E 接收，页面在原条目中补充了接收日期及期刊官网链接。尚未核实正式 Version of Record，因此继续保留在 Preprints，按首次 arXiv 日期排序；篇数仍为 20 篇正式文章、3 篇预印本。
+
 ### 首页图片
 
 当前图片为 `assets/images/soft-interface-v4.png`，已用内置图像生成工具重新修整为较细、平滑、两端渐隐的流线，去掉箭头，保留上下不对称形态，以及柔和的灰青、墨蓝和铜色。它是大体表达近界面流动约束的概念图，不是实验图像、数值流场或定量变形解。生成说明与完整修改提示词见 `assets/images/IMAGE_NOTES.md`。
