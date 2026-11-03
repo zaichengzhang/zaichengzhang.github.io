@@ -26,7 +26,7 @@ academic-homepage/
 
 ## 修改内容
 
-姓名、单位、邮箱和 Google Scholar 链接已填写。主页现收录已核实的 23 篇独立文章：20 篇正式文章（含一篇法文综述性文章）和 3 篇预印本。预印本单列在 Preprints，按首次公开日期倒序；正式文章列在 Publications，按最终期刊出版年份分组倒序，同年按已知出版日期排序。两部分独立倒序编号，标题链接到 DOI 或 arXiv。已合并同一工作的预印本与期刊版本。Google Scholar 暂时无法直接读取；当前文章清单的覆盖范围、来源和核对限制见 `CONTENT_SOURCES.md`。
+姓名、单位、邮箱和 Google Scholar 链接已填写。主页现收录已核实的 23 篇独立文章：21 篇正式文章（含一篇法文综述性文章）和 2 篇预印本。预印本单列在 Preprints，按首次公开日期倒序；正式文章列在 Publications，按最终期刊出版年份分组倒序，同年按已知出版日期排序。两部分独立倒序编号，标题链接到 DOI 或 arXiv。已合并同一工作的预印本与期刊版本。Google Scholar 暂时无法直接读取；当前文章清单的覆盖范围、来源和核对限制见 `CONTENT_SOURCES.md`。
 
 全部内容都在 `index.html` 中，可直接编辑，无需维护翻译或运行脚本。更新姓名或研究范围时，也请同步修改文件开头的标题和网页描述。
 
@@ -34,7 +34,9 @@ academic-homepage/
 
 每个 `section class="publication-year"` 是一个年份分组，其中 `ol class="publication-list"` 的每个 `li` 对应一篇文章，依次包含标题链接、作者和期刊信息。可复制一个已有条目，再替换为经核对的真实记录。作者顺序保持原文顺序，自己的姓名以 `<strong>Zaicheng Zhang</strong>` 显示为墨蓝色粗体。两部分分别从最新文章倒数编号，编号互不混用；新增或移动文章后，更新相应年份列表的 `start` 值。预印本只出现在 Preprints，期刊信息行明确标为 `Preprint`。每次更新都逐篇检查 Preprints 中的全部文章，不能只检查本月新加入的条目。核实正式期刊版本后，将文章移入 Publications，替换标题、作者、日期、期刊、卷页或文章号和 DOI，移除原预印本条目，并调整年份和编号；已上线的正式 Early Access / Online First 文章可按正式发表处理，尚无卷页时仅显示已确认信息。仅被接收、投稿状态变化或 arXiv 版本更新，不等于正式发表。访问受阻或匹配不明确时保留预印本并记录待核查原因；Preprints 为空时可隐藏该区域和导航链接。
 
-2026-11-01 更新：两篇预印本已核实被 Physical Review Letters 和 Physical Review E 接收，页面在原条目中补充了接收日期及期刊官网链接。尚未核实正式 Version of Record，因此继续保留在 Preprints，按首次 arXiv 日期排序；篇数仍为 20 篇正式文章、3 篇预印本。
+2026-11-01 历史更新：两篇预印本已核实被 Physical Review Letters 和 Physical Review E 接收，页面在原条目中补充了接收日期及期刊官网链接。尚未核实正式 Version of Record，因此继续保留在 Preprints，按首次 arXiv 日期排序；篇数仍为 20 篇正式文章、3 篇预印本。
+
+2026-11-03 更新：粒子列切换前沿论文已于 11 月 2 日正式发表于 Physical Review E 114, 055403，现已移入 Publications，删除原独立预印本条目并重新编号。当前为 21 篇正式文章、2 篇预印本；PRL 电黏升力论文继续标为已接收的预印本。
 
 ### 首页图片
 

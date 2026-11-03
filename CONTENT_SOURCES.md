@@ -1,6 +1,6 @@
 # Content sources
 
-Bibliographic inventory established on 2026-09-16. Monthly discovery and all three preprint publication statuses rechecked on 2026-11-01: two journal acceptances verified, no formal-version migrations. The inventory remains 20 journal articles and 3 preprints.
+Bibliographic inventory established on 2026-09-16. All three previously listed preprints rechecked on 2026-11-03; one formal journal version verified and migrated. The inventory now contains 21 journal articles and 2 preprints.
 
 ## Identity and affiliation
 
@@ -24,7 +24,7 @@ Rewritten on 2026-09-17 in concise third-person prose, following the general org
 
 ## Scope and verification
 
-The page lists 23 distinct works: 20 journal articles (including one French overview article) and 3 independent arXiv preprints. The 20 published articles are listed under Publications; the 3 preprints appear separately under Preprints, with independent numbering. This replaces the former six-paper selection. Every journal article in the public [ORCID record](https://orcid.org/0000-0001-7472-1597) is included (18 unique journal DOIs). The additional ACS Macro Letters paper, Reflets de la physique article, and independent preprints were identified through public author records and verified with publisher-supplied Crossref metadata, the publisher PDF, or arXiv.
+The page lists 23 distinct works: 21 journal articles (including one French overview article) and 2 independent arXiv preprints. The 21 published articles are listed under Publications; the 2 preprints appear separately under Preprints, with independent numbering. This replaces the former six-paper selection. Every journal article in the public [ORCID record](https://orcid.org/0000-0001-7472-1597) is included (18 unique journal DOIs). The additional ACS Macro Letters paper, Reflets de la physique article, November 2026 Physical Review E article, and independent preprints were identified through public author records and verified with publisher-supplied Crossref metadata, the publisher PDF, or arXiv.
 
 The supplied Google Scholar profile could not be retrieved directly. This is the full deduplicated article inventory verified from the accessible sources, not a guaranteed exact mirror of Google Scholar. No citation counts or h-index are inferred.
 
@@ -55,6 +55,16 @@ This confirmation applies specifically to the nanoindentation paper. It does not
 - Coverage: Google Scholar could not be retrieved. Crossref discovery is bounded (100 author-query results and 8 results for each topic search); initial rate limits were supplemented by successful author/topic results and a creasing-query retry. Same-name records with different affiliations/coauthors, and records without a positive identity match, were not added. Accepted notices and manuscript contents—not search snippets or aggregator journal labels—determine the two status updates. This check does not guarantee exhaustive Scholar coverage.
 - Changes: two acceptance notes in `index.html`, this source audit and a short README clarification; author order, bold name styling, titles, first-submission sorting, independent numbering, biography, Research illustrations and all 20 formal article citations remain unchanged. Validation and source snapshots are in `work/maintenance/2026-11-01/` outside the deployable project.
 
+## Follow-up check: 2026-11-03
+
+- The live site and all 11 public files matched the November 1 deployment before editing. Remote main was `273cda8ce42f7810c97357ec09b00d08346932d3`, with a successful Pages run. All 13 local files matched the remote Git blobs; the current project was backed up before this migration.
+- The [original PRE article](https://journals.aps.org/pre/abstract/10.1103/7krl-rw24) now confirms **Hydrodynamic switching fronts polarize deformable particle trains**, by **Linzheng Huang, Hengdi Zhang, Zaicheng Zhang, and Zaiyi Shen**, **Physical Review E 114, 055403 (2026)**, published **2 November 2026**. Its [November issue contents](https://journals.aps.org/pre/issues/114/5) independently list the same citation and release date. The article page identifies Zhang at the School of Physics, Beihang University; publisher-deposited [Crossref metadata](https://api.crossref.org/works/10.1103/7krl-rw24) supplies the matching ORCID 0000-0001-7472-1597 and a Version of Record link.
+- Matching title, complete author sequence and the directional switching/polarization mechanism in the [author manuscript](https://arxiv.org/html/2604.05925v1) confirm this is the same work. Mapping: **arXiv:2604.05925 → DOI 10.1103/7krl-rw24**. The original preprint entry was removed, the formal citation inserted first under Publications (2026), and independent reverse numbering recalculated. The formal title uses the publisher's sentence case. The page retains one entry for this work.
+- The [PRL notice](https://journals.aps.org/prl/accepted/10.1103/chpr-nmhf) still identifies **Nanoscale electroviscous lift force** as Accepted Paper (23 October). The formal abstract URL returned 404 and Crossref still has no volume, issue, article number or Version of Record link. It remains under Preprints with its existing acceptance note. [arXiv:2602.12832](https://arxiv.org/abs/2602.12832) remains v2 with no journal reference; its first-submission date remains 13 February 2026.
+- [arXiv:2604.20299](https://arxiv.org/abs/2604.20299) remains v1 without a journal reference or journal DOI. Title/topic searches did not identify a verifiable formal counterpart. The switching preprint itself also still shows v1 without a journal reference; this illustrates why the original publisher must be checked even when arXiv has not been updated.
+- Scope: this follow-up checks the current live deployment and all three preprint statuses, with primary-source and Crossref verification of the new formal version; it is not a second full monthly discovery audit. Initially cached accepted-page results and failed direct web opens were resolved by opening the journal issue's article link and retrieving the live original HTML. The GitHub public API rate limit was handled through the connected GitHub tool. No inference was made from an aggregator's journal/date label alone.
+- Changed `index.html`, `CONTENT_SOURCES.md`, `README.md` and the matching ZIP. Biography, contact details, Research text/images, prior formal citations and all author sequences were preserved. No new independent work was added. Source snapshots, migration mapping, validation and release evidence are stored in `work/maintenance/2026-11-03/` outside the deployed project.
+
 ## Ordering and editorial rules
 
 - Publications and Preprints are separate lists, each sorted newest first and numbered independently. Published articles are grouped by final journal publication year. Where a final issue date exists, it determines placement; otherwise the online publication date is used. Month-only records follow dated records in the same month. Preprints use their first arXiv submission date.
@@ -70,8 +80,8 @@ This confirmation applies specifically to the nanoindentation paper. It does not
 
 | Publication date used | Title | Bibliographic record | Verification |
 | --- | --- | --- | --- |
+| 2026-11-02 | Hydrodynamic switching fronts polarize deformable particle trains | Physical Review E 114, 055403 | [Publisher Version of Record](https://journals.aps.org/pre/abstract/10.1103/7krl-rw24); [DOI](https://doi.org/10.1103/7krl-rw24) |
 | 2026-04-22 | Polymeric Solvents Control Swelling-Induced Surface Creasing | arXiv:2604.20299; preprint | [arXiv](https://arxiv.org/abs/2604.20299) |
-| 2026-04-07 | Hydrodynamic Switching Fronts Polarize Deformable Particle Trains | arXiv:2604.05925; preprint | [arXiv](https://arxiv.org/abs/2604.05925) |
 | 2026-03-17 | Glassy–Rubbery Transition-Induced Geometry-Dependent Swelling in Gels | ACS Macro Letters 15, 407-412 | [DOI](https://doi.org/10.1021/acsmacrolett.5c00818); [publisher metadata](https://api.crossref.org/works/10.1021/acsmacrolett.5c00818) |
 | 2026-03-06 | Quantitative measurements of the lift force acting on a sphere sliding along a liquid–liquid interface | Journal of Physics: Condensed Matter 38, 095102 | [DOI](https://doi.org/10.1088/1361-648x/ae49ce); [publisher metadata](https://api.crossref.org/works/10.1088/1361-648x/ae49ce) |
 | 2026-02-13 | Nanoscale Electroviscous Lift Force | arXiv:2602.12832; preprint | [arXiv](https://arxiv.org/abs/2602.12832) |
